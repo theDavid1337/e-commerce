@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/media.css">
+    <title>Cart | E-commerce</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="before_heading">
+                <p class="before_heading-p">Need help? Call us: (+98) 0234 456 789</p>
+                <div class="before_heading-div">
+                    <a href="#">
+                        <p class="before_heading-p"><i class="fa-solid fa-location-dot before_heading-icon"></i>Our
+                            store</p>
+                    </a>
+                    <a href="./order.html">
+                        <p class="before_heading-p"><i class="fa-solid fa-truck before_heading-icon"></i>Track your
+                            order</p>
+                    </a>
+                </div>
+            </div>
+            <div class="header_wrapper">
+                <a href="./index.html"><img src="./img/site-logo.svg" alt="site-logo" class="site-logo"></a>
+                <ul class="menu">
+                    <li class="nav-item"><i class="fa-solid fa-user header_wrapper-icon"></i><a href="#"
+                            class="nav_link">Sign in</a></li>
+                    <li class="nav-item"><i class="fa-solid fa-heart header_wrapper-icon"><span>1</span></i><a href="#"
+                            class="nav_link">Favorite</a></li>
+                    <li class="nav-item"><i class="fa-solid fa-cart-shopping header_wrapper-icon"><span>1</span></i><a
+                            href="./cart.html" class="nav_link">Cart</a>
+                    </li>
+                    <li class="nav-item modal_wrapper-icon"><i
+                            class="fa-solid fa-magnifying-glass header_wrapper-icon "></i><a href="#"
+                            class="nav_link">Search</a>
+                    </li>
+                </ul>
+                <div class="toggle_menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="category_wrapper">
+                <p class="category_wrapper-browse-categories">Browse categories <i class="fa-solid fa-chevron-down"></i>
+                </p>
+                <div class="category_wrapper-inner">
+                    <p class="category_wrapper-actions">Home <i class="fa-solid fa-chevron-down"></i></p>
+                    <p class="category_wrapper-actions">Catalog <i class="fa-solid fa-chevron-down"></i></p>
+                    <p class="category_wrapper-actions">Blog</p>
+                    <p class="category_wrapper-actions">Pages <i class="fa-solid fa-chevron-down"></i></p>
+                    <p class="category_wrapper-actions">About us</p>
+                </div>
+                <p class="category_wrapper-free-trial">30 Days Free Return</p>
+            </div>
+        </div>
+    </header>
+    <!-- Modal Start -->
+    <div class="modal_wrapper">
+        <div class="modal">
+            <div class="search_box">
+                <input type="text" class="search_box-input" placeholder="Search any thing...">
+                <a href="./product.html"><button class="search_box-btn">Search</button></a>
+            </div>
+            <div class="search_box-icon modal_wrapper-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./JS/cart.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/media.css">
+    <title>Category | E-Commerce</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="before_heading">
+                <p class="before_heading-p">Need help? Call us: (+98) 0234 456 789</p>
+                <div class="before_heading-div">
+                    <a href="#">
+                        <p class="before_heading-p"><i class="fa-solid fa-location-dot before_heading-icon"></i>Our
+                            store</p>
+                    </a>
+                    <a href="./order.html">
+                        <p class="before_heading-p"><i class="fa-solid fa-truck before_heading-icon"></i>Track your
+                            order</p>
+                    </a>
+                </div>
+            </div>
+            <div class="header_wrapper">
+                <a href="./index.html"><img src="./img/site-logo.svg" alt="site-logo" class="site-logo"></a>
+                <ul class="menu">
+                    <li class="nav-item"><i class="fa-solid fa-user header_wrapper-icon"></i><a href="#"
+                            class="nav_link">Sign in</a></li>
+                    <li class="nav-item"><i class="fa-solid fa-heart header_wrapper-icon"><span>1</span></i><a href="#"
+                            class="nav_link">Favorite</a></li>
+                    <li class="nav-item"><i class="fa-solid fa-cart-shopping header_wrapper-icon"><span>1</span></i><a
+                            href="./cart.html" class="nav_link">Cart</a>
+                    </li>
+                    <li class="nav-item modal_wrapper-icon"><i
+                            class="fa-solid fa-magnifying-glass header_wrapper-icon "></i><a href="#"
+                            class="nav_link">Search</a>
+                    </li>
+                </ul>
+                <div class="toggle_menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="category_wrapper">
+                <p class="category_wrapper-browse-categories">Browse categories <i class="fa-solid fa-chevron-down"></i>
+                </p>
+                <div class="category_wrapper-inner">
+                    <p class="category_wrapper-actions">Home <i class="fa-solid fa-chevron-down"></i></p>
+                    <p class="category_wrapper-actions">Catalog <i class="fa-solid fa-chevron-down"></i></p>
+                    <p class="category_wrapper-actions">Blog</p>
+                    <p class="category_wrapper-actions">Pages <i class="fa-solid fa-chevron-down"></i></p>
+                    <p class="category_wrapper-actions">About us</p>
+                </div>
+                <p class="category_wrapper-free-trial">30 Days Free Return</p>
+            </div>
+        </div>
+    </header>
+    <!-- Modal Start -->
+    <div class="modal_wrapper">
+        <div class="modal">
+            <div class="search_box">
+                <input type="text" class="search_box-input" placeholder="Search any thing...">
+                <a href="./product.html"><button class="search_box-btn">Search</button></a>
+            </div>
+            <div class="search_box-icon modal_wrapper-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="category-section_first">
+            <div class="container">
+                <div class="category-section_first_wrapper">
+                    <div class="category-section_first_left">
+                        <p class="category-filter_heading">Categories<span class="category-reset">reset</span></p>
+                        <div class="category-filter_wrapper">
+                            <div class="category-checkbox_wrapper">
+                                <div class="category-checkbox_inner_wrapper">
+                                    <input type="checkbox" class="category-filter_inp category-all_choice" checked>
+                                    <p>All categories</p>
+                                </div>
+                                <p class="category-all_counter"></p>
+                            </div>
+                            <div class="category-checkbox_wrapper">
+                                <div class="category-checkbox_inner_wrapper">
+                                    <input type="checkbox" class="category-filter_inp">
+                                    <p>Tablet</p>
+                                </div>
+                                <p class="category-tablet"></p>
+                            </div>
+                            <div class="category-checkbox_wrapper">
+                                <div class="category-checkbox_inner_wrapper">
+                                    <input type="checkbox" class="category-filter_inp">
+                                    <p>Laptop</p>
+                                </div>
+                                <p class="category-laptop"></p>
+                            </div>
+                            <div class="category-checkbox_wrapper">
+                                <div class="category-checkbox_inner_wrapper">
+                                    <input type="checkbox" class="category-filter_inp">
+                                    <p>Headphones</p>
+                                </div>
+                                <p class="category-headphones"></p>
+                            </div>
+                            <div class="category-checkbox_wrapper">
+                                <div class="category-checkbox_inner_wrapper">
+                                    <input type="checkbox" class="category-filter_inp">
+                                    <p>Console</p>
+                                </div>
+                                <p class="category-console"></p>
+                            </div>
+                            <div class="category-checkbox_wrapper">
+                                <div class="category-checkbox_inner_wrapper">
+                                    <input type="checkbox" class="category-filter_inp">
+                                    <p>Other</p>
+                                </div>
+                                <p class="category-other"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category-section_first_right">
+                        <div class="product_card" data-word="camera,photo,canon,picture">
+                            <img src="./img/camera.png" alt="img">
+                            <p class="product_card-title">Camera</p>
+                            <p class="product_card-price">$550</p>
+                            <button class="product_card-cart-btn">Add to cart <i
+                                    class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                        <div class="product_card" data-word="pc,laptop,tech,touchpad,lenovo,acer,victus,notebook,rog">
+                            <img src="./img/laptop.png" alt="img">
+                            <p class="product_card-title">Laptop</p>
+                            <p class="product_card-price">$545</p>
+                            <button class="product_card-cart-btn">Add to cart <i
+                                    class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                        <div class="product_card" data-word="speaker,volume,music,bass">
+                            <img src="./img/speaker.png" alt="img">
+                            <p class="product_card-title">Speaker</p>
+                            <p class="product_card-price">$100</p>
+                            <button class="product_card-cart-btn">Add to cart <i
+                                    class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                        <div class="product_card" data-word="camera,photo,canon,picture">
+                            <img src="./img/camera.png" alt="img">
+                            <p class="product_card-title">Camera</p>
+                            <p class="product_card-price">$550</p>
+                            <button class="product_card-cart-btn">Add to cart <i
+                                    class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+
+                        <div class="product_card" data-word="camera,photo,canon,picture">
+                            <img src="./img/camera.png" alt="img">
+                            <p class="product_card-title">Camera</p>
+                            <p class="product_card-price">$550</p>
+                            <button class="product_card-cart-btn">Add to cart <i
+                                    class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                        <div class="product_card" data-word="pc,laptop,tech,touchpad,lenovo,acer,victus,notebook,rog">
+                            <img src="./img/laptop.png" alt="img">
+                            <p class="product_card-title">Laptop</p>
+                            <p class="product_card-price">$545</p>
+                            <button class="product_card-cart-btn">Add to cart <i
+                                    class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                        <div class="product_card" data-word="speaker,volume,music,bass">
+                            <img src="./img/speaker.png" alt="img">
+                            <p class="product_card-title">Speaker</p>
+                            <p class="product_card-price">$100</p>
+                            <button class="product_card-cart-btn">Add to cart <i
+                                    class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                        <div class="product_card" data-word="camera,photo,canon,picture">
+                            <img src="./img/camera.png" alt="img">
+                            <p class="product_card-title">Camera</p>
+                            <p class="product_card-price">$550</p>
+                            <button class="product_card-cart-btn">Add to cart <i
+                                    class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                        <div class="product_card" data-word="camera,photo,canon,picture">
+                            <img src="./img/camera.png" alt="img">
+                            <p class="product_card-title">Camera</p>
+                            <p class="product_card-price">$550</p>
+                            <button class="product_card-cart-btn">Add to cart <i
+                                    class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                        <div class="product_card" data-word="pc,laptop,tech,touchpad,lenovo,acer,victus,notebook,rog">
+                            <img src="./img/laptop.png" alt="img">
+                            <p class="product_card-title">Laptop</p>
+                            <p class="product_card-price">$545</p>
+                            <button class="product_card-cart-btn">Add to cart <i
+                                    class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                        <div class="product_card" data-word="speaker,volume,music,bass">
+                            <img src="./img/speaker.png" alt="img">
+                            <p class="product_card-title">Speaker</p>
+                            <p class="product_card-price">$100</p>
+                            <button class="product_card-cart-btn">Add to cart <i
+                                    class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                        <div class="product_card" data-word="camera,photo,canon,picture">
+                            <img src="./img/camera.png" alt="img">
+                            <p class="product_card-title">Camera</p>
+                            <p class="product_card-price">$550</p>
+                            <button class="product_card-cart-btn">Add to cart <i
+                                    class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                        <div class="product_card" data-word="camera,photo,canon,picture">
+                            <img src="./img/camera.png" alt="img">
+                            <p class="product_card-title">Camera</p>
+                            <p class="product_card-price">$550</p>
+                            <button class="product_card-cart-btn">Add to cart <i
+                                    class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                        <div class="product_card" data-word="pc,laptop,tech,touchpad,lenovo,acer,victus,notebook,rog">
+                            <img src="./img/laptop.png" alt="img">
+                            <p class="product_card-title">Laptop</p>
+                            <p class="product_card-price">$545</p>
+                            <button class="product_card-cart-btn">Add to cart <i
+                                    class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                        <div class="product_card" data-word="speaker,volume,music,bass">
+                            <img src="./img/speaker.png" alt="img">
+                            <p class="product_card-title">Speaker</p>
+                            <p class="product_card-price">$100</p>
+                            <button class="product_card-cart-btn">Add to cart <i
+                                    class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                        <div class="product_card" data-word="camera,photo,canon,picture">
+                            <img src="./img/camera.png" alt="img">
+                            <p class="product_card-title">Camera</p>
+                            <p class="product_card-price">$550</p>
+                            <button class="product_card-cart-btn">Add to cart <i
+                                    class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <div class="footer_wrapper">
+                <ul class="footer_ul">
+                    <li>
+                        <img src="./img/footer_logo.svg" alt="img">
+                    </li>
+                    <li>
+                        <p class="footer_item">64 st james boulevard
+                            <br> hoswick , ze2 7zj</p>
+                    </li>
+                </ul>
+                <ul class="footer_ul">
+                    <li><a href="#" class="footer_item">Find product</a></li>
+                    <li><a href="#" class="footer_item">Brownze arnold</a></li>
+                    <li><a href="#" class="footer_item">Chronograph blue</a></li>
+                    <li><a href="#" class="footer_item">Smart phones</a></li>
+                    <li><a href="#" class="footer_item">Automatic watch</a></li>
+                    <li><a href="#" class="footer_item">Hair straighteners</a></li>
+                </ul>
+                <ul class="footer_ul">
+                    <li><a href="#" class="footer_item">Get help</a></li>
+                    <li><a href="#" class="footer_item">About us</a></li>
+                    <li><a href="#" class="footer_item">Contact us</a></li>
+                    <li><a href="#" class="footer_item">Return policy</a></li>
+                    <li><a href="#" class="footer_item">Privacy policy</a></li>
+                    <li><a href="#" class="footer_item">Payment policy</a></li>
+                </ul>
+                <ul class="footer_ul">
+                    <li><a href="#" class="footer_item">About us</a></li>
+                    <li><a href="#" class="footer_item">News</a></li>
+                    <li><a href="#" class="footer_item">Service</a></li>
+                    <li><a href="#" class="footer_item">Our policy</a></li>
+                    <li><a href="#" class="footer_item">Custmer care</a></li>
+                    <li><a href="#" class="footer_item">Faq's</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./JS/main.js"></script>
+    <script src="./JS/category.js"></script>
+</body>
+
+</html>
